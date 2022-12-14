@@ -1,0 +1,56 @@
+.boxdiv {
+    display: inline;
+    background-color: steelblue;
+}
+
+.box span {
+    display: block;
+}
+
+.box {
+    background-color: tan;
+    width: 400px;
+    height: 300px;
+    /* For the space inside the block */
+    /* padding-top: 10px; 
+    padding-left: 20px;
+    padding-bottom: 30px;
+    /* padding-right: 20px;  */
+
+    /* Same all the sides */
+    padding: 10px;
+    /* top,bottom & right,left */
+    padding: 20px 10px;
+    /* top & right, bottom & left */
+    padding: 20px 50px 20px;
+    /* top, right, bottom, left */
+    padding: 20px 50px 20px 50px;
+
+    /* places a border outside a block */
+    /*  border-width: 2px;
+    border-style: solid;
+    border-color: #333; */
+
+    /* shorthand */
+    border: 2px solid #333;
+
+    /* spaces around the block */
+    /* margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px; */
+
+    /* margin shorthand */
+    /* same all the side */
+    /* margin: 10px; */
+    /* top,bottom & right,left */
+    /* margin: 20px 10px; */
+    /* top & right,left & bottom */
+    /* margin: 20px 50px 20px; */
+    /* top, right, bottom, left */
+    /* margin: 20px 50px 20px 50px; */
+
+    /* centered block */
+    margin: auto;
+
+}
