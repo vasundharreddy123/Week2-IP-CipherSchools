@@ -1,0 +1,51 @@
+* {
+    /*  color: green; */
+}
+
+p {
+    color: red;
+}
+
+p {
+    /* thiss will beprefered */
+    /* color: blueviolet */
+    color: blueviolet;
+    font-size: 20px;
+    font-size: 20px;
+
+}
+
+.para {
+    /*  color: black; */
+}
+
+#para {
+    /* color: purple; */
+}
+
+/*  Combinations */
+
+/* desendant selector */
+header p{
+      color: royalblue !important; 
+}
+
+/* child selector */
+
+header > p {
+    background-color: cornsilk;
+}
+
+/* adjacent sibling selector */
+
+header + p{
+    font-style: italic;
+
+}
+
+/*  General sibling selector */
+
+header ~ p{
+    background-color: darkgoldenrod;
+    color: #fff;
+}
