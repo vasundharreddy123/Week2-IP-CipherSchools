@@ -1,0 +1,8 @@
+/* this is paragraph styling  */
+ p {
+    color: blue;
+    background-color: bisque;
+} 
+
+
+p{color: red;background-color: bisque;}
